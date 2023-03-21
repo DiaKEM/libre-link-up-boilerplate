@@ -1,0 +1,31 @@
+{
+  "name": "libre-link-up-boilerplate",
+  "version": "1.0.0",
+  "description": "Simple boilerplate for LibreLinkUp client",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "babel src/index.js -d dist",
+    "start": "babel-watch --extensions \".js\" src/index.js",
+    "debug": "babel-watch --inspect 0.0.0.0:9229 --extensions \".js\" src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiaKEM/libre-link-up-boilerplate.git"
+  },
+  "author": "Selcuk Kekec",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DiaKEM/libre-link-up-boilerplate/issues"
+  },
+  "homepage": "https://github.com/DiaKEM/libre-link-up-boilerplate#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.3",
+    "@babel/plugin-transform-runtime": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "babel-watch": "^7.7.2"
+  },
+  "dependencies": {
+    "@diakem/libre-link-up-api-client": "^0.6.1"
+  }
+}
